@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">My Memory Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">My Memory Game</string>
+    <string name="start">Start</string>
+    
+      <string name="startapp_devid">108055686</string>
+    <string name="startapp_appid">208563808</string>
+    
+         <string-array name="type">
+        <item><b>Choose Difficulty:  >></b></item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,61 @@
+    <RelativeLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        xmlns:appbrain="http://schemas.android.com/apk/lib/com.appbrain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/black">
+
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+  
+  <com.appbrain.AppBrainBanner 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="50dp" 
+	  appbrain:design="2" 
+	  appbrain:colors="2" 
+	  appbrain:button="6"/>
+
+                    
+                    <!--  
+             <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="50dp"
+                         ads:adUnitId="9a1fecbeb6de445f"
+                         ads:adSize="BANNER"
+                         ads:testDevices="5554,c0808790896622f"
+                         ads:loadAdOnCreate="true"
+                         />
+                         -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="230dp"
+        android:layout_height="120dp"
+		android:text="@string/start"
+		android:background="@drawable/mybutton"
+		android:textColor="@android:color/black"
+		android:textSize="24dp"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_marginTop="100dp"/>
+
+
+</LinearLayout>
+
+
+    <com.tapfortap.AdView
+                android:id="@+id/ad_view"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom='true'
+                 /> 
+                 
+    </RelativeLayout>
